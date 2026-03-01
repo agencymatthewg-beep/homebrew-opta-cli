@@ -2,7 +2,7 @@
 # Agentic AI coding CLI powered by local LLMs
 #
 # To install from a custom tap:
-#   brew tap optaops/opta-cli https://github.com/optaops/homebrew-opta-cli
+#   brew tap agencymatthewg-beep/opta-cli https://github.com/agencymatthewg-beep/homebrew-opta-cli
 #   brew install opta-cli
 #
 # To update the sha256 after cutting a release:
@@ -10,9 +10,9 @@
 
 class OptaCli < Formula
   desc "Agentic AI coding CLI powered by local LLMs"
-  homepage "https://github.com/optaops/opta-cli"
-  url "https://github.com/optaops/opta-cli/releases/download/v0.5.0/opta-cli-0.5.0.tar.gz"
-  sha256 "PLACEHOLDER_SHA256_REPLACE_AFTER_RELEASE"
+  homepage "https://github.com/agencymatthewg-beep/opta"
+  url "https://github.com/agencymatthewg-beep/opta/releases/download/v0.5.0-alpha.1/opta-cli-npm.tgz"
+  sha256 "fbe884e714f2e0f6170599fff64dce8106eee30fc2462c62a239eb00af7a8adf"
   license "MIT"
 
   depends_on "node@20"
